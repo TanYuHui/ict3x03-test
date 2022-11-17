@@ -13,8 +13,8 @@ services:
       - ./jenkins_home:/var/jenkins_home
   
   webapp:
-    container_name: webapp
-    build: ./webapp
+    container_name: pastel_de_luna
+    build: ./pastel_de_luna
     ports:
       - "80:80"
 
